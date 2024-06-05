@@ -1,0 +1,88 @@
+body {
+    background-color: #222;
+}
+
+.title {
+    width: 100vw;
+    text-align: center;
+    font-size: 8vw;
+    font-weight: 900;
+    color: white;
+    text-shadow: white 0px 0px 20px;
+}
+
+.title:after {
+    font-size: 2vw;
+    content: "1307 김준섭";
+}
+
+.ad_line {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.ad_tile {
+    position: relative;
+    display: inline-block;
+    width: 40vw;
+    height: 40vw;
+    margin: 2vw;
+    border-radius: 5vw;
+    overflow: hidden;
+}
+
+.ad_bg {
+    width: 150%;
+    height: 150%;
+    object-fit: cover;
+    filter: blur(6px);
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    transform: rotate3d(1, 0.6, 0, 45deg);
+}
+
+.ad_title {
+    width: 100%;
+    font-weight: 800;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    translate: -50% 0%;
+    font-size: 6vw;
+    text-align: center;
+}
+
+.ad_subtitle {
+    width: 80%;
+    font-weight: 700;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    translate: -50% 0%;
+    font-size: 3vw;
+    text-align: center;
+}
+
+.ad_button {
+    width: 8vw;
+    height: 4vw;
+    line-height: 4vw;
+    border-radius: 100vw;
+    border: none;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    translate: -50% -50%;
+    background-color:rgb(50, 115, 205);
+    color: white;
+    font-weight: 700;
+    font-size: 1.5vw;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
